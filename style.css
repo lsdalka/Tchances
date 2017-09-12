@@ -1,0 +1,24 @@
+/*
+ Theme Name:   TChances
+ Theme URI:    http://www.tchances.com/twentyseventeen-child/
+ Description:  TChances theme, based on Twenty Seventeen
+ Author:       Eleftherios Dalkafoukis
+ Author URI:   http://www.lsdalka.com
+ Template:     twentyseventeen
+ Version:      0.8.5
+ Tags:         one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+.single-featured-image-header { display: none; }
+.entry-header { display: none; }
+.panel-content > .wrap { padding-top: 2em; }
+#top-menu li a { color: #000000; }
+#top-menu li a:hover { color: #767676; }
+.site-footer .widget-area { padding-bottom: 0; }
+.fb-timeline { display: inline-block; width: 49.7%; }
+.project { display: block; min-height: 120px;}
+.project p { text-align: right; }
+.project p:first-child { text-align: left; }
+.project img { max-width: 110px; height: auto; float: left; margin-right: 20px; } 
+@media screen and (max-width: 48em) { ul#menu-social-links-menu.social-links-menu { text-align: center; } .fb-timeline { width: 100%; text-align: center; } .fb-timeline { margin-bottom: 20px; } .project p { text-align: center !important; } .project img { margin-right: 0; float: none; } }
